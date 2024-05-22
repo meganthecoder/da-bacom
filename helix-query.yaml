@@ -14,7 +14,7 @@ indices:
       - '/request-consultation/**'
     exclude:
       - '**/fragments/**'
-    target: /query-index.xlsx
+    target: /query-index.json
     properties: &minProps
       title:
         select: head > meta[property="og:title"]
@@ -365,7 +365,7 @@ indices:
       - '/de/request-consultation/**'
     exclude:
       - '**/fragments/**'
-    target: /de/query-index.xlsx
+    target: /de/query-index.json
     properties:
       <<: *minProps
   sitemap-dk:
