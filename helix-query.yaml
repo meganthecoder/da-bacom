@@ -1,7 +1,7 @@
 version: 1
 
 indices:
-  sitemap-us:
+  us-content:
     include:
       - '/'
       - '/customer-success-stories/**'
